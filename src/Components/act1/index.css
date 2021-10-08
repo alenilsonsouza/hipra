@@ -1,0 +1,50 @@
+.act1 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size:cover;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+}
+.act1--content {
+    width: 38%;
+    padding:20px 20px 20px 79px;
+    background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,0) 0%, rgba(182,182,192,0) 0%, rgba(255,255,255,1) 19%, rgba(255,255,255,1) 100%);
+}
+.title {
+    color:#003080;
+    margin-bottom: 15px;
+}
+.list ul {
+    margin-left: 0;
+    padding-left: 0;
+}
+.list ul li img {
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+}
+.list ul li {
+    line-height: 20px;
+    margin-bottom:10px;
+    display:flex;
+    justify-content: flex-start;
+    
+}
+.list--description {
+    background-color:#c4e283;
+    padding:20px;
+    position: absolute;
+    top:172px;
+    margin-left:29px;
+    margin-right:29px;
+    display: none;
+}
+.hover {
+    cursor: pointer;
+}
+.hover:hover ~ .list--description {
+    display: block;
+}

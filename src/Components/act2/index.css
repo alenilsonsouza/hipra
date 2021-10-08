@@ -1,0 +1,31 @@
+.act2 {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.act2--content {
+    background-color:rgba(255,255,255,.7);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.act2--content h2{
+    color:#003080;
+    margin-bottom:15px;
+    font-size:18px;
+}
+.act2--content p{
+    margin-top:0;
+    margin-bottom:20px;
+}
+.act2--content p span{
+    color:#003080;
+    font-weight: bold;
+}
