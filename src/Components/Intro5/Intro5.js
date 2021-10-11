@@ -2,9 +2,9 @@ import React from 'react';
 import './Intro5.css';
 import Background from '../../images/fundo4.png';
 
-const Intro5 = () => {
+const Intro5 = ({display}) => {
     return (
-        <div className="intro5" style={{ backgroundImage: `url(${Background})` }}>
+        <div className="intro5" style={{ backgroundImage: `url(${Background})`, display:display }}>
             <div className="intro5--linha">
                 <div className="linha--item"><span>B</span>oas</div>
                 <div className="linha--item"><span>P</span>ráticas de</div>

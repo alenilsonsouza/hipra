@@ -2,9 +2,9 @@ import React from 'react';
 import './Intro4.css';
 import Background from '../../images/fundo3.png';
 
-const Intro4 = () => {
+const Intro4 = ({display}) => {
     return (
-        <div className="intro4" style={{ backgroundImage: `url(${Background})` }}>
+        <div className="intro4" style={{ backgroundImage: `url(${Background})`, display:display }}>
             <div className="intro4--content">
                 <div className="left">
                     <div className="left--image">

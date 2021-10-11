@@ -2,9 +2,9 @@ import React from 'react';
 import './Intro3.css';
 import Background from '../../images/fundo2.png'
 
-const Intro3 = () => {
+const Intro3 = ({display}) => {
     return (
-        <div className="intro3" style={{backgroundImage:`url(${Background})`}}>
+        <div className="intro3" style={{backgroundImage:`url(${Background})`, display: display}}>
             <div className="intro3--title">
                 <h2>BPF</h2>
                 <p>

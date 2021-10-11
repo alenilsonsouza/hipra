@@ -1,10 +1,10 @@
 import React from 'react';
 import './Intro.css';
 
-const Intro = () => {
+const Intro = ({display}) => {
     return (
         <>
-        <div className="intro-area">
+        <div className="intro-area" style={{display:display}}>
             <div className="intro-questions">
                 <div className="intro--item">
                     <div className="intro--item-logo">

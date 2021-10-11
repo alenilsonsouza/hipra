@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import './index.css';
 import Background from '../../images/fundo5.png';
 
-const Act1 = () => {
+const Act1 = ({display}) => {
 
     const [desc, setDesc] = useState(false)
 
@@ -14,7 +14,7 @@ const Act1 = () => {
         setDesc(false)
     }
     return (
-        <div className="act1" style={{ backgroundImage: `url(${Background})` }}>
+        <div className="act1" style={{ backgroundImage: `url(${Background})`, display:display }}>
             <div className="act1--content">
 
                 <h2 className="title">Classificação de deficiência</h2>
